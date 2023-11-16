@@ -1,15 +1,20 @@
 {
   "manifest_version": 3,
   "name": "CTFC - Code-Tag Font Changer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "codeタグ内のフォントをきれいにします",
   "content_scripts": [
     {
-      "matches": ["https://*/*", "http://*/*"],
-      "css": ["style.css"]
-      }
-    ],
-    "icons": {
-      "48": "b_icon.png"
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ],
+      "css": [
+        "style.css"
+      ]
     }
+  ],
+  "icons": {
+    "48": "b_icon.png"
+  }
 }
